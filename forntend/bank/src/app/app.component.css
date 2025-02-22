@@ -1,0 +1,35 @@
+/* Custom styles for the navigation */
+nav {
+    background-color: #007bff;
+}
+
+nav .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #f1f1f1;
+}
+
+nav .navbar-nav .nav-item .active {
+    font-weight: bold;
+    color: #ffcc00; /* Active link color */
+}
+
+/* Align navbar items to the right */
+nav .navbar-nav {
+    margin-left: auto;  /* Push the items to the right */
+}
+
+/* For responsive navigation */
+@media (max-width: 768px) {
+    nav .navbar-nav {
+        text-align: center; /* Center-align nav items on smaller screens */
+    }
+}
