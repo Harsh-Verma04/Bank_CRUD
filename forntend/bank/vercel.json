@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend/bank && npm install && npm run build -- --configuration production",
-  "outputDirectory": "frontend/bank/dist/bank",
-  "framework": "angular",
+  "builds": [
+    { "src": "dist/bank/**", "use": "@vercel/static" }
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
