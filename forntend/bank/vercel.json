@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend/bank && npm install && npm run build -- --configuration production",
+  "buildCommand": "npm install && npm run build -- --configuration production",
   "outputDirectory": "frontend/bank/dist/bank",
   "framework": "angular",
   "routes": [
