@@ -2,7 +2,6 @@
   "version": 2,
   "buildCommand": "cd frontend/bank && npm install && npm run build -- --configuration production",
   "outputDirectory": "frontend/bank/dist/bank",
-  "framework": "none",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
