@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "buildCommand": "npm install && npm run build -- --configuration production",
-  "outputDirectory": "frontend/bank/dist/bank",
+  "outputDirectory": "forntend/bank/dist/bank",
   "framework": "angular",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
