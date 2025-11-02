@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.BankingApplication.dto.AccountDto;
 import com.BankingApplication.service.AccountService;
 
-@CrossOrigin( origins ="http://localhost:4200")
+
 @RestController
 @RequestMapping("/api/accounts")
 public class AccountController {

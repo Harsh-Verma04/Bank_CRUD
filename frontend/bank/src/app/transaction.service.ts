@@ -9,7 +9,7 @@ import { AccountDto } from './account-dto';
 })
 export class TransactionService {
 
-  private baseUrl = 'http://localhost:8081/api/accounts'; // Base API URL
+  private baseUrl = 'https://bankcrud-production.up.railway.app/api/accounts'; // Base API URL
 
   constructor(private http: HttpClient) { }
 
