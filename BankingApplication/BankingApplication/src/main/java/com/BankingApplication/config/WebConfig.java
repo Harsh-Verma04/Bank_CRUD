@@ -17,7 +17,8 @@ public class WebConfig {
                         
                         // Add your Angular app's URLs here
                         .allowedOrigins(
-                            "http://localhost:4200", // For local development
+                            "http://localhost:4200",
+                            "http://localhost:5173",// For local development
                             "https://bank-crud-livid.vercel.app" // Your deployed Angular app URL
                         ) 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
